@@ -6,6 +6,8 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 - Many times, practice questions are repeated multiple times, usually only with very minor variation
   - Sometimes a question set has us do a lab as part of the set that we had done independently before
+- The transcripts for videos often have errors
+  - e.g. "ls pci" should be "lspci", etc.
 
 ## Chapters 3-4:
 
