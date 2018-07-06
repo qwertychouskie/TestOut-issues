@@ -21,6 +21,8 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 - Lab 5.9.6: Setting additional drives to defrag on the schedule results in failing the lab, with no prior indication to the user.
 
+- 5.10.1: The transcript for `bootrec` commands is wrong.
+
 - DVDs do not store "theater-quality video", they store 480p video (720p is the minimum resolution that is considered HD).  Most theaters display movies in 4K, a.k.a. 2160p (though some theaters may use 2K instead).  That's a pretty big difference...
 
 - (Minor) Most burnable CDs that you can buy are the 700MB type, 650MB is much more rare.
