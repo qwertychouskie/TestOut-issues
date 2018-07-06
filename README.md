@@ -17,6 +17,8 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 ## Chapter 5:
 
+- Lab 5.8.4 has us "Set the storage to its maximum size", except with thin provisioning, what is the maximum?  The lab lets us set sizes like 100TB, but the correct amount is considered 2.3TB of usable space, even though with parity there is only 1.53TB of usable space.  So appearently "maximum" = thin provisioning an arbitrary amount.
+
 - DVDs do not store "theater-quality video", they store 480p video (720p is the minimum resolution that is considered HD).  Most theaters display movies in 4K, a.k.a. 2160p (though some theaters may use 2K instead).  That's a pretty big difference...
 
 - (Minor) Most burnable CDs that you can buy are the 700MB type, 650MB is much more rare.
