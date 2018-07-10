@@ -26,3 +26,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 - DVDs do not store "theater-quality video", they store 480p video (720p is the minimum resolution that is considered HD).  Most theaters display movies in 4K, a.k.a. 2160p (though some theaters may use 2K instead).  That's a pretty big difference...
 
 - (Minor) Most burnable CDs that you can buy are the 700MB type, 650MB is much more rare.
+
+## Chapter 6
+
+- 6.5.4 equates HTTPS with SSL and talks about RSA, although __*both SSL and RSA are completely insecure and should not be used.*__ See https://www.trustzone.com/robot-attack-rsa-encryption-vulnerable-choose-ecc-tlsssl-certificates-ensure-security for info on RSA and why it shouldn't be used.
