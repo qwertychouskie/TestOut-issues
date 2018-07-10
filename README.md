@@ -32,3 +32,5 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 - 6.5.4 equates HTTPS with SSL and talks about RSA, although __*both SSL and RSA are completely insecure and should not be used.*__ See https://www.trustzone.com/robot-attack-rsa-encryption-vulnerable-choose-ecc-tlsssl-certificates-ensure-security for info on RSA and why it shouldn't be used.
 
 - 6.5.4: The entry for DNS should use `www.example.com`, `www.mydomain.com` is a real site.
+
+- 6.5.5 q9: Should be SFTP, not FTP, as __*FTP is insecure.*__
