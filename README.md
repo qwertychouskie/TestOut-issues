@@ -4,6 +4,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 ## General:
 
+- __*`su -` doesn't work by default on Ubuntu/Debian-based systems, `sudo commandname` or `sudo su -` should be used instead.*__
 - Many times, practice questions are repeated multiple times, usually only with very minor variation
   - Sometimes a question set has us do a lab as part of the set that we had done independently before
 - The transcripts for videos often have errors
