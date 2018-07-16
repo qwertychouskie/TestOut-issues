@@ -4,6 +4,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 ## General:
 
+- __*The main site (www.testout.com) doesn't force HTTPS, allowing a MITM attacker (e.g. fake coffee shop wifi) to easily change the "Login" button to point at a fake login.*__  Also the site allow some insecure chiphers, see https://www.ssllabs.com/ssltest/analyze.html?d=testout.com
 - __*`su -` doesn't work by default on Ubuntu/Debian-based systems, `sudo commandname` or `sudo su -` should be used instead.*__
 - Many times, practice questions are repeated multiple times, usually only with very minor variation
   - Sometimes a question set has us do a lab as part of the set that we had done independently before
@@ -34,4 +35,4 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 - 6.5.4: The entry for DNS should use `www.example.com`, `www.mydomain.com` is a real site.
 
-- 6.5.5 q9: Should be SFTP, not FTP, as __*FTP is insecure.*__
+- 6.5.5 q9: Should be SFTP or FTPS, not FTP, as __*FTP is insecure.*__  See https://en.wikipedia.org/wiki/File_Transfer_Protocol#Login
