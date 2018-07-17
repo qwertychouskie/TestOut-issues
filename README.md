@@ -36,3 +36,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 - 6.5.4: The entry for DNS should use `www.example.com`, `www.mydomain.com` is a real site.
 
 - 6.5.5 q9: Should be SFTP or FTPS, not FTP, as __*FTP is insecure.*__  See https://en.wikipedia.org/wiki/File_Transfer_Protocol#Login
+
+## Chapter 7
+
+- Lab 7.3.5 fails you if you set the network printer as the default device even though the instructions never tell you not to.  In fact, since it is the only "real" printer configured on the system, it makes sense to make it the default device.
