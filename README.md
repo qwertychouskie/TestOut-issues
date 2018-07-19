@@ -40,3 +40,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 ## Chapter 7
 
 - Lab 7.3.5 fails you if you set the network printer as the default device even though the instructions never tell you not to.  In fact, since it is the only "real" printer configured on the system, it makes sense to make it the default device.
+
+## Chapter 8
+
+- 8.2.7 q2: Should be Mini-PCIe, not Mini-PCI.
