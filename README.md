@@ -43,4 +43,4 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 ## Chapter 8
 
-- 8.2.7 q2: Should be Mini-PCIe, not Mini-PCI.
+- 8.2.7 q2 and q7: Should be Mini-PCIe, not Mini-PCI.
