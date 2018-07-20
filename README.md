@@ -45,6 +45,8 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 - 8.2.7 q2 and q7: Should be Mini-PCIe, not Mini-PCI.
 
-- Lab 8.3.6: In the "Critical bettery action section, __*Sleep=Do nothing, Hibernate=Sleep, and Shut down=Hibernate ?!?!?!?!?*__
+- Lab 8.3.6: In the "Critical bettery action" section, __*Sleep=Do nothing, Hibernate=Sleep, and Shut down=Hibernate ?!?!?!?!?*__
 
-- 8.3.7 q4: This wouldn't happen.  As long  as hibernation support is enabled, `hiberfil.sys` allocates the size necessary for hibernation, the only situation in which this could happen is if the user upgraded their RAM, and there was not sufficient space for `hiberfil.sys` to grow.
+- 8.3.7 q4: This wouldn't happen.  As long as hibernation support is enabled, `hiberfil.sys` allocates the size necessary for hibernation, the only situation in which this could happen is if the user upgraded their RAM, and there was not sufficient space for `hiberfil.sys` to grow.
+
+- 8.5.3 "Operating system" section: grammatical issues abound.
