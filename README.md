@@ -49,4 +49,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 - 8.3.7 q4: This wouldn't happen.  As long as hibernation support is enabled, `hiberfil.sys` allocates the size necessary for hibernation, the only situation in which this could happen is if the user upgraded their RAM, and there was not sufficient space for `hiberfil.sys` to grow.
 
-- 8.5.3 "Operating system" section: grammatical issues abound.
+- 8.5.3: Just needs to be redone, or something.
+  - "Operating system" section: grammatical issues abound.
+  - "Virtual assistant" section: What?? "Skyvi" is dead, couldn't even find "AIVIC" ??... I couldn't find "iris" on the Play store either.
+  - "Wi-Fi calling": Not just an iPhone thing...
