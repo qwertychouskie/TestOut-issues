@@ -53,3 +53,5 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
   - "Operating system" section: grammatical issues abound.
   - "Virtual assistant" section: What?? "Skyvi" is dead, couldn't even find "AIVIC" ??... I couldn't find "iris" on the Play store either.
   - "Wi-Fi calling": Not just an iPhone thing...
+
+- 8.6: One again, __*It's not SSL.  SSL is insecure.  It's TLS.*__
