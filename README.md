@@ -55,3 +55,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
   - "Wi-Fi calling": Not just an iPhone thing...
 
 - 8.6: One again, __*It's not SSL.  SSL is insecure.  It's TLS.*__
+
+## Chapter 9
+
+- 9.3.4 q4:  Leave blank??  What?!?
