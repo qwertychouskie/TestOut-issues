@@ -59,3 +59,5 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 ## Chapter 9
 
 - 9.3.4 q4:  Leave blank??  What?!?
+
+- 9.6.9: The services that are supposed to be set to not start on boot are already set to Manual.  This means the service will start only if another service needs it, and would probably be the prefered option here.  Disabled prevents the service from starting at all, even if another service needs it to work properly, so this option should be used with caution.
