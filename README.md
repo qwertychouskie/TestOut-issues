@@ -83,3 +83,5 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
   - `apt-cache show`       -> `apt show`
 
 - 9.10.8: Lab shows as failed if you use the Settings app instead of Control Panel.
+
+- 9.11.5: Turning on System Protection is usless on drive D, as it is a Windows 10 system.
