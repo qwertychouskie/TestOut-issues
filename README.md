@@ -47,7 +47,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 - 8.2.7 q2 and q7: Should be Mini-PCIe, not Mini-PCI.
 
-- Lab 8.3.6: In the "Critical battery action" section, __*Sleep=Do nothing, Hibernate=Sleep, and Shut down=Hibernate ?!?!?!?!?*__
+- Lab 8.3.6: In the "Critical battery action" section, __*Sleep=Do nothing, Hibernate=Sleep, and Shut down=Hibernate ?!?!?!?!?*__  Also, the lab makes us configure an action for the Low Battery section, not the Critical battery section, while in any real scenario the Low Battery section should just be reserved for a visual warning and the Critical Battery section used for an action such as hibernating.
 
 - 8.3.7 q4: This wouldn't happen.  As long as hibernation support is enabled, `hiberfil.sys` allocates the size necessary for hibernation, the only situation in which this could happen is if the user upgraded their RAM, and there was not sufficient space for `hiberfil.sys` to grow.
 
