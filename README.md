@@ -5,7 +5,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 ## General:
 
 - __*The main site (www.testout.com) doesn't force HTTPS, allowing a MITM attacker (e.g. fake coffee shop wifi) to easily change the "Login" button to point at a fake login.*__  Also the site allow some insecure chiphers, see https://www.ssllabs.com/ssltest/analyze.html?d=testout.com
-- __*`su -` doesn't work by default on Ubuntu/Debian-based systems, `sudo commandname` or `sudo su -` should be used instead.*__
+- __*`su -` doesn't work by default on Ubuntu/Debian-based systems, `sudo commandname` or `sudo su -` should be used instead.*__  This is only very breifly touched on in 9.7.1.
 - Many times, practice questions are repeated multiple times, usually only with very minor variation
   - Sometimes a question set has us do a lab as part of the set that we had done independently before
 - The transcripts for videos often have errors
@@ -43,9 +43,11 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 ## Chapter 8
 
+- Modern phones have more secure facial recognition systems, e.g. Face ID.
+
 - 8.2.7 q2 and q7: Should be Mini-PCIe, not Mini-PCI.
 
-- Lab 8.3.6: In the "Critical bettery action" section, __*Sleep=Do nothing, Hibernate=Sleep, and Shut down=Hibernate ?!?!?!?!?*__
+- Lab 8.3.6: In the "Critical battery action" section, __*Sleep=Do nothing, Hibernate=Sleep, and Shut down=Hibernate ?!?!?!?!?*__
 
 - 8.3.7 q4: This wouldn't happen.  As long as hibernation support is enabled, `hiberfil.sys` allocates the size necessary for hibernation, the only situation in which this could happen is if the user upgraded their RAM, and there was not sufficient space for `hiberfil.sys` to grow.
 
@@ -61,3 +63,21 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 - 9.3.4 q4:  Leave blank??  What?!?
 
 - 9.6.9: The services that are supposed to be set to not start on boot are already set to Manual.  This means the service will start only if another service needs it, and would probably be the prefered option here.  Disabled prevents the service from starting at all, even if another service needs it to work properly, so this option should be used with caution.
+
+- 9.7: This section should mention Snap and Flatpak as they are the prefered way to get end-user application on modern distros.
+
+- 9.7.2: The Ubuntu Software Center has been replaced with the distro-agnostic GNOME Software.
+
+- 9.7.4 apt-get: The description for `apt-get update` is wrong.  The command updates the local copy of the list of available packages.  Generally this command should be run before the other apt-get commands.  Also commands like `apt-cache search` and `apt-cache show [packagename]` should be mentioned.  It would actually be good to update the `apt-get` and `apt-cache` commands to their `apt` counterparts, as the `apt` command gives more human-readable output:
+
+  - `apt-get update`       -> `apt update`
+  
+  - `apt-get dist-upgrade` -> `apt full-upgrade`
+  
+  - `apt-get install`      -> `apt install`
+  
+  - `apt-get remove`       -> `apt remove`
+  
+  - `apt-cache search`     -> `apt search`
+  
+  - `apt-cache show`       -> `apt show`
