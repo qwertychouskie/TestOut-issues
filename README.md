@@ -87,3 +87,5 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 - 9.11.5: Turning on System Protection is usless on drive D, as it is a Windows 10 system.
 
 - 9.12.7: Video has large empty section.
+
+- 9.13.5 q1: Should be "Select three", the minimum size can also be set.
