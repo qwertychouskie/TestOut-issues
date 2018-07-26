@@ -81,3 +81,5 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
   - `apt-cache search`     -> `apt search`
   
   - `apt-cache show`       -> `apt show`
+
+- 9.10.8: Lab shows as failed if you use the Settings app instead of Control Panel.
