@@ -92,3 +92,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 - 9.12.7: Video has large empty section.
 
 - 9.13.5 q1: Should be "Select three", the minimum size can also be set.
+
+## Chapter 11
+
+- 11.4.6: Using Properties->Sharing->Advanced Sharing causes the lab to fail you for giving the read/write permissions to everyone, even if you do.
