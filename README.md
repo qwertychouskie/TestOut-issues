@@ -96,3 +96,9 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 ## Chapter 11
 
 - 11.4.6: Using Properties->Sharing->Advanced Sharing causes the lab to fail you for giving the read/write permissions to everyone, even if you do.
+
+## Chapter 12
+
+- 12.3.1: Group policy is useless against a bootable USB with e.g. Linux.  In fact a bootable USB is probably prefered as it can bypass most security measures like file permissions.
+
+- 12.3.2: High voltage will fry the electronics, but the platters will likely be untouched, allowing the data to be potentially recovered.
