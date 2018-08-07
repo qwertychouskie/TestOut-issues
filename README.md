@@ -104,3 +104,5 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 - 12.3.2: High voltage will fry the electronics, but the platters will likely be untouched, allowing the data to be potentially recovered.
 
 - 12.5.1: "Lo-jack"?  It's almost always called Computrace.  **Also it's insecure: https://en.wikipedia.org/wiki/LoJack_for_Laptops#Vulnerabilities**  `<rant>`IMO this rankes very high in dangerously-exploitable-by-design software, second only to the Intel Management Engine, which is stupidly vulnerable: https://blog.trendmicro.com/trendlabs-security-intelligence/mitigating-cve-2017-5689-intel-management-engine-vulnerability/  This vulnerability isn't even fixed in many older systems as vendors rarily provide BIOS updates for older systems.`</rant>`
+
+- 12.7.9: SSL again...
