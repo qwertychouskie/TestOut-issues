@@ -1,11 +1,11 @@
 # TestOut PC Pro issues
 
-Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit PRs for anything I've missed.
+Various issues I've found in the TestOut PC Pro curriculum.  Feel free to submit PRs for anything I've missed.
 
 ## General:
 
-- __*The main site (www.testout.com) doesn't force HTTPS, allowing a MITM attacker (e.g. fake coffee shop wifi) to easily change the "Login" button to point at a fake login.*__  Also the site allow some insecure chiphers, see https://www.ssllabs.com/ssltest/analyze.html?d=testout.com
-- __*`su -` doesn't work by default on Ubuntu/Debian-based systems, `sudo commandname` or `sudo su -` should be used instead.*__  This is only very breifly touched on in 9.7.1.
+- __*The main site (www.testout.com) doesn't force HTTPS, allowing a MITM attacker (e.g. fake coffee shop wifi) to easily change the "Login" button to point at a fake login.*__  Also the site allow some insecure ciphers, see https://www.ssllabs.com/ssltest/analyze.html?d=testout.com
+- __*`su -` doesn't work by default on Ubuntu/Debian-based systems, `sudo commandname` or `sudo su -` should be used instead.*__  This is only very briefly touched on in 9.7.1.
 - Many times, practice questions are repeated multiple times, usually only with very minor variation
   - Sometimes a question set has us do a lab as part of the set that we had done independently before
   - **The midterm is a direct subset of the practice midterm.**
@@ -20,7 +20,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 ## Chapter 5:
 
-- Lab 5.8.4 has us "Set the storage to its maximum size", except with thin provisioning, what is the maximum?  The lab lets us set sizes like 100TB, but the correct amount is considered 2.3TB of usable space, even though with parity there is only 1.53TB of usable space.  So appearently "maximum" = thin provisioning an arbitrary amount.
+- Lab 5.8.4 has us "Set the storage to its maximum size", except with thin provisioning, what is the maximum?  The lab lets us set sizes like 100TB, but the correct amount is considered 2.3TB of usable space, even though with parity there is only 1.53TB of usable space.  So apparently "maximum" = thin provisioning an arbitrary amount.
 
 - Lab 5.9.6: Setting additional drives to defrag on the schedule results in failing the lab, with no prior indication to the user.
 
@@ -65,9 +65,9 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 - 9.3.4 q4:  Leave blank??  What?!?
 
-- 9.6.9: The services that are supposed to be set to not start on boot are already set to Manual.  This means the service will start only if another service needs it, and would probably be the prefered option here.  Disabled prevents the service from starting at all, even if another service needs it to work properly, so this option should be used with caution.
+- 9.6.9: The services that are supposed to be set to not start on boot are already set to Manual.  This means the service will start only if another service needs it, and would probably be the preferred option here.  Disabled prevents the service from starting at all, even if another service needs it to work properly, so this option should be used with caution.
 
-- 9.7: This section should mention Snap and Flatpak as they are the prefered way to get end-user application on modern distros.
+- 9.7: This section should mention Snap and Flatpak as they are the preferred way to get end-user application on modern distros.
 
 - 9.7.2: The Ubuntu Software Center has been replaced with the distro-agnostic GNOME Software.
 
@@ -87,7 +87,7 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 - 9.10.8: Lab shows as failed if you use the Settings app instead of Control Panel.
 
-- 9.11.5: Turning on System Protection is usless on drive D, as it is a Windows 10 system.
+- 9.11.5: Turning on System Protection is useless on drive D, as it is a Windows 10 system.
 
 - 9.12.7: Video has large empty section.
 
@@ -99,11 +99,11 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 
 ## Chapter 12
 
-- 12.3.1: Group policy is useless against a bootable USB with e.g. Linux.  In fact a bootable USB is probably prefered as it can bypass most security measures like file permissions.
+- 12.3.1: Group policy is useless against a bootable USB with e.g. Linux.  In fact a bootable USB will most likely be preferred by an attacker as it can bypass many security measures like file permissions.
 
 - 12.3.2: High voltage will fry the electronics, but the platters will likely be untouched, allowing the data to be potentially recovered.
 
-- 12.5.1: "Lo-jack"?  It's almost always called Computrace.  **Also it's insecure: https://en.wikipedia.org/wiki/LoJack_for_Laptops#Vulnerabilities**  `<rant>`IMO this rankes very high in dangerously-exploitable-by-design software, second only to the Intel Management Engine, which is stupidly vulnerable: https://blog.trendmicro.com/trendlabs-security-intelligence/mitigating-cve-2017-5689-intel-management-engine-vulnerability/  This vulnerability isn't even fixed in many older systems as vendors rarily provide BIOS updates for older systems.`</rant>`
+- 12.5.1: "Lo-jack"?  It's almost always called Computrace.  **Also it's insecure: https://en.wikipedia.org/wiki/LoJack_for_Laptops#Vulnerabilities**  `<rant>`IMO this rankes very high in dangerously-exploitable-by-design software, second only to the Intel Management Engine, which is stupidly vulnerable: https://blog.trendmicro.com/trendlabs-security-intelligence/mitigating-cve-2017-5689-intel-management-engine-vulnerability/  This vulnerability isn't even fixed in many older systems as vendors rarely provide BIOS updates for older systems.`</rant>`
 
 - 12.7.9: SSL again...
 
@@ -112,3 +112,5 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 - 12.8.2: SSL, WEP, and WPA1...
 
 - 12.12: SSL. Need I say more?
+
+- 12.13.3 Browser History: "If an attacker can gain access to the cash"...  If they already gained access to your cash, who cares about your browser history :P
