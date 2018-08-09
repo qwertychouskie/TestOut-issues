@@ -110,3 +110,5 @@ Various issues I've found in the TestOut PC Pro curiculum.  Feel free to submit 
 - 12.8: Contains a bit of VPN stuff even though 12.12 is the VPN section.
 
 - 12.8.2: SSL, WEP, and WPA1...
+
+- 12.12: SSL. Need I say more?
