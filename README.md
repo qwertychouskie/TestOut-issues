@@ -12,6 +12,8 @@ Various issues I've found in the TestOut PC Pro curriculum.  Feel free to submit
 - The transcripts for videos often have errors
   - e.g. "ls pci" should be "lspci", etc.
 
+- The Certification Exam doesn't tell you which questions you missed and why.
+
 ## Chapters 3-4:
 
 - Lab 4.1.3 (the one with the KVM switch) makes us plug in a 12 volt DC power adapter into a KVM switch clearly marked to use 5 volts(!)
