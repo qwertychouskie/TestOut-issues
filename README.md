@@ -11,3 +11,9 @@ Various issues I've found in the TestOut curriculum.  Feel free to submit PRs fo
 - The transcripts for videos often have errors
   - e.g. "ls pci" should be "lspci", etc.
 - The Certification Exam doesn't tell you which questions you missed and why.
+
+# PC Pro:
+https://github.com/qwertychouskie/TestOut-issues/blob/master/PC%20Pro.md
+
+# Network Pro:
+https://github.com/qwertychouskie/TestOut-issues/blob/master/Network%20Pro.md
