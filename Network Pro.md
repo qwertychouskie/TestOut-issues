@@ -17,3 +17,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 - 1.4.1: SSL doesn't just work "differently", it works highly insecurely...
 
 - 1.4.4: "Web browsers use SSL to ensure safe web transactions."  *cough*poodle*cough*
+
+## Chapter 3
+
+- 3.2.3: The first time I completed the lab one of the computers had no connectivity for seemingly no reason.  The cable used to connect the modem may have been switched with one of the other cables but all devices were connected correctly.
