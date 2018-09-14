@@ -21,3 +21,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 ## Chapter 3
 
 - 3.2.3: The first time I completed the lab one of the computers had no connectivity for seemingly no reason.  The cable used to connect the modem may have been switched with one of the other cables but all devices were connected correctly.
+
+## Chapter 4
+
+- 4.4.5: I couldn't get a full score, as the "disconnect cable, ping workstations, reconnect cable" always showed as not done for some reason.
