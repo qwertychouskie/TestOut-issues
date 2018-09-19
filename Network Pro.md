@@ -25,3 +25,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 ## Chapter 4
 
 - 4.4.5: I couldn't get a full score, as the "disconnect cable, ping workstations, reconnect cable" always showed as not done for some reason.
+
+## Chapter 5
+
+- 5.5.3: Should use www.example.com as the example site, www.mydomain.com is a real site.
