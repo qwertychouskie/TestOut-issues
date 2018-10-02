@@ -29,3 +29,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 ## Chapter 5
 
 - 5.5.3: Should use www.example.com as the example site, www.mydomain.com is a real site.
+
+## Chapter 6
+
+- 6.3.8: Some questions have us work with interface "FastEthernet0/0", but interface numbers always start at 0/1.
