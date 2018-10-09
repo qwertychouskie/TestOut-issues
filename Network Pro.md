@@ -33,3 +33,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 ## Chapter 6
 
 - 6.3.8: Some questions have us work with interface "FastEthernet0/0", but interface numbers always start at 0/1.
+
+## Chapter 7
+
+- 7.1.2: "Routing is the process of moving packet" -> packets
