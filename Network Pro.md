@@ -36,4 +36,4 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 
 ## Chapter 7
 
-- 7.1.2: "Routing is the process of moving packet" -> packets
+- 7.1.2: "Routing is the process of moving packet" -> packets, also in Method: Static, "until they manually removed" -> "until they are manually removed".
