@@ -37,3 +37,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 ## Chapter 7
 
 - 7.1.2: "Routing is the process of moving packet" -> packets, also in Method: Static, "until they manually removed" -> "until they are manually removed".
+
+- 7.4.6 q1: If the packet has the do-not-fragement flag set, and a size exceeding the MTU, the router has no choice but to drop the packet.  In this case the router is doing what it is supposed to do.  Also, the ping command used here will generate a packet larger than 1500 bytes.  Assuming an Ethernet network is used, the number should be 1472.
+
+- 7.4.6 q9: Windows 2000 and 98?!?
