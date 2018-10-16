@@ -17,3 +17,5 @@ Various issues I've found in the TestOut curriculum.  Feel free to submit PRs fo
 
 # Network Pro:
 [Here](Network%20Pro.md)
+
+On a lighter note, whoever implemented the "My Web Search" in IE deserves 1000 high-fives!  10/10 top-tier easter egg
