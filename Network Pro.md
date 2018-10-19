@@ -45,3 +45,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 ## Chapter 8
 
 - 8.1.9 q11: SSL again :( :( :(
+
+## Chapter 9
+
+- 9.1.5: The SAN technologies comparison table displays wrongly.
