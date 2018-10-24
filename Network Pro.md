@@ -49,3 +49,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 ## Chapter 9
 
 - 9.1.5: The SAN technologies comparison table displays wrongly.
+
+## Chapter 10
+
+- 10.1.4: "such as a laptop or a wireless PDA."  PDA?  Sooooo old.
