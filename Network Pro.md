@@ -60,3 +60,4 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 
 - 13.1.4: q2 and q14 are the same.
 
+- 13.2.4: The emails are cut off horizontaly, with no way to scroll.
