@@ -61,3 +61,5 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 - 13.1.4: q2 and q14 are the same.
 
 - 13.2.4: The emails are cut off horizontaly, with no way to scroll.
+
+- 13.6.1: NOOOO! HTTP should never be used, only HTTPS. https://https.cio.gov/everything/
