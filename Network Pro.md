@@ -62,4 +62,6 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 
 - 13.2.4: The emails are cut off horizontaly, with no way to scroll.
 
+- 13.6: SSL. :( :( please this is getting old, SSL should NEVER BE USED!! :( :(
+
 - 13.6.1: NOOOO! HTTP should never be used, only HTTPS. https://https.cio.gov/everything/
