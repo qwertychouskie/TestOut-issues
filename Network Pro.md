@@ -65,3 +65,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 - 13.6: SSL. :( :( please this is getting old, SSL should NEVER BE USED!! :( :(
 
 - 13.6.1: NOOOO! HTTP should never be used, only HTTPS. https://https.cio.gov/everything/
+
+## Chapter 15
+
+- 15.1: Hotfix vs Service Pack info is wrong.  See https://support.microsoft.com/en-us/help/824684/description-of-the-standard-terminology-that-is-used-to-describe-micro
