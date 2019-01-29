@@ -4,4 +4,4 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 
 ## Chapter 1:
 
-- 1.1.1: Ctl+Alt+F(1-6) is preferred over Alt+F(1-6) as the latter won't work if you are in a GUI evironment while the former will always work.
+- 1.1.1: Ctl+Alt+F(1-6) is preferred over Alt+F(1-6) as the latter won't work if you are in a GUI evironment while the former will always work.  Both ways are mentioned but Ctl+Alt+F(1-6) should always work and thus should be prefered.
