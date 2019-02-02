@@ -9,3 +9,5 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 - 1.1.4: DO NOT USE `su` TO "EXIT" FROM A SESSION.  It actually puts you in a sub-sub-session, and anyone can get back to the previous account (which is USUALLY ROOT!) just with the `exit` command, no password needed!
 
 - 1.1.6: `chsh` does not accept `-l` as a parameter, at least on Ubuntu 18.04.
+
+- 1.5.3: The redundant phrase "Environment environmental variables are..." is redundant.
