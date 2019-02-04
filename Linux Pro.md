@@ -11,3 +11,5 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 - 1.1.6: `chsh` does not accept `-l` as a parameter, at least on Ubuntu 18.04.
 
 - 1.5.3: The redundant phrase "Environment environmental variables are..." is redundant.
+
+- 1.7.5: `ls /nonesuch 2 > /tmp/deleteme` should be `ls /nonesuch 2> /tmp/deleteme` (no space between the 2 and the >).
