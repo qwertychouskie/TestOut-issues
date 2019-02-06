@@ -15,3 +15,5 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 - 1.7.5: `ls /nonesuch 2 > /tmp/deleteme` should be `ls /nonesuch 2> /tmp/deleteme` (no space between the 2 and the >).
 
 - 1.8.5: `rm` description is confusing.
+
+- 1.9.5: "mv ... copies all text files..." s/copies/moves
