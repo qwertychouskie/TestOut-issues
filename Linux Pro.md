@@ -17,3 +17,7 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 - 1.8.5: `rm` description is confusing.
 
 - 1.9.5: "mv ... copies all text files..." s/copies/moves
+
+## Chapter 2:
+
+- 2.1.3: Arch list is outdated, e.g. Apple != PPC, Macs since ~2006 use i686 or x86-64.  Most use of PPC is IBM POWER9 machines.
