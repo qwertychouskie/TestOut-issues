@@ -23,3 +23,5 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 - 2.1.3: Arch list is outdated, e.g. Apple != PPC, Macs since ~2006 use i686 or x86-64.  Most use of PPC is IBM POWER9 machines.
 
 - 2.1.3: Filesystem list is also outdated.  EXT4 is the default on most systems, and fiesystems like BTRFS, XFS, and ZFS are competing for the spot for the next main Linux FS.
+
+- 2.2.3: The 4-partition limit does not apply to GPT disks.
