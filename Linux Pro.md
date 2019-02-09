@@ -25,3 +25,5 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 - 2.1.3: Filesystem list is also outdated.  EXT4 is the default on most systems, and fiesystems like BTRFS, XFS, and ZFS are competing for the spot for the next main Linux FS.
 
 - 2.2.3: The 4-partition limit does not apply to GPT disks.
+
+- 2.2.3 Remote Access: Both IPMI and Intel vPro/MEI/etc are notoriously insecure, and should NEVER BE RECOMMENDED.
