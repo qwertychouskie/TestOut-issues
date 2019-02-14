@@ -31,3 +31,13 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 ## Chapter 3
 
 -3.5.4: Rebooting uses `runlevel6.target`, not `runlevel1.target`.
+
+## Chapter 4
+
+- X11 is being replaced by Wayland.
+
+- Why even mention XFree86?  2005 is an eternity ago in Linux years.
+
+- KDE is now known as the "K Desktop Environment", not the "Kool Desktop Environment".  Also GNOME's acronym is never really used.
+
+- Enlightenment hasn't been used in GNOME since 2.2 (2007!).  GNOME 2.2 and above use Metacity, and GNOME 3 switched to Mutter.
