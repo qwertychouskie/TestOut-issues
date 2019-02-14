@@ -27,3 +27,7 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 - 2.2.3: The 4-partition limit does not apply to GPT disks.
 
 - 2.2.3 Remote Access: Both IPMI and Intel vPro/MEI/etc are notoriously insecure, and should NEVER BE RECOMMENDED.
+
+## Chapter 3
+
+-3.5.4: Rebooting uses `runlevel6.target`, not `runlevel1.target`.
