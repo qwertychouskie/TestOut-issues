@@ -41,3 +41,7 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 - KDE is now known as the "K Desktop Environment", not the "Kool Desktop Environment".  Also GNOME's acronym is never really used.
 
 - Enlightenment hasn't been used in GNOME since 2.2 (2007!).  GNOME 2.2 and above use Metacity, and GNOME 3 switched to Mutter.
+
+## Chapter 6
+
+- 6.3.4:  Instructions don't say to remove `aespinoza` from `western_sales_group` but yoou get dinged if you don't.
