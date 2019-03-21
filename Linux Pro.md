@@ -44,4 +44,9 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 
 ## Chapter 6
 
-- 6.3.4:  Instructions don't say to remove `aespinoza` from `western_sales_group` but yoou get dinged if you don't.
+- 6.3.4:  Instructions don't say to remove `aespinoza` from `western_sales_group` but you get dinged if you don't.
+
+## Chapter 8
+
+- 8.3: Most distros got rid of HAL around 2011, with just udev being used now.
+
