@@ -50,3 +50,6 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 
 - 8.3: Most distros got rid of HAL around 2011, with just udev being used now.
 
+## Chapter 10
+
+- 10.1.7: `vi less /var/log/messages` should be `vi /var/log/messages`
