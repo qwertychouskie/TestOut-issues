@@ -54,4 +54,4 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 
 - 10.1.7: `vi less /var/log/messages` should be `vi /var/log/messages`
 
-- 10.2.5: The shebang is `#!/bin/bash`, not `#! /bin/bash`.
+- 10.2.5: The shebang is `#!/bin/bash`, not `#! /bin/bash`.  Actually, for portability, `#!/usr/bin/env bash` may be better, see <https://stackoverflow.com/a/10383546/4901968>.
