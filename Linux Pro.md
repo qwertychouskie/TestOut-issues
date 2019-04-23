@@ -59,3 +59,5 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 ## Chapter 11
 
 - 11.1.2: SSL is insecure and is no longer used.  This should be TLS.
+
+- 11.1.2: `mydomain.com` is an actual site.  `example.com` is reserved as an example domain and should always be used in examples.
