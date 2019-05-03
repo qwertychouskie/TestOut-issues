@@ -61,3 +61,7 @@ Various issues I've found in the TestOut Linux Pro curriculum.  Feel free to sub
 - 11.1.2, 11.1.8: SSL is insecure and is no longer used.  This should be TLS.
 
 - 11.1.2: `mydomain.com` is an actual site.  `example.com` is reserved as an example domain and should always be used in examples.
+
+# Chapter 12
+
+- MD5 isn't used by SSH anymore, it now uses SHA256.
