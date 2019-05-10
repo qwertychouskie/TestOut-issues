@@ -69,3 +69,7 @@ Various issues I've found in the TestOut Network Pro curriculum.  Feel free to s
 ## Chapter 15
 
 - 15.1: Hotfix vs Service Pack info is wrong.  See https://support.microsoft.com/en-us/help/824684/description-of-the-standard-terminology-that-is-used-to-describe-micro
+
+## Certification Exam
+
+- q11:  Instructions say to use the SSID "CompWireless", but that laptop is configured for "HomeWireless".
